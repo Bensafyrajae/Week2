@@ -1,7 +1,7 @@
 -- 1
 OUTPUT : 0
 -- 2
-OUTPUT : 5
+OUTPUT : 2
 -- 3
 OUTPUT:0
 -- 4
