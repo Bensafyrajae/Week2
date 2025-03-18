@@ -1,0 +1,8 @@
+-- 1
+OUTPUT : 0
+-- 2
+OUTPUT : 5
+-- 3
+OUTPUT:0
+-- 4
+OUTPUT : 2
