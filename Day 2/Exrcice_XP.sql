@@ -17,11 +17,11 @@ ORDER BY lastname DESC;
 
 -- 1
 SELECT *
-FROM customers;
+FROM customer;
 
 -- 2
-SELECT firstname || ' ' || lastname AS full_name
-FROM customers;
+SELECT first_name || ' ' || last_name AS full_name
+FROM customer;
 
 -- 3
 SELECT DISTINCT create_date
