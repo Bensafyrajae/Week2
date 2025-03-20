@@ -2,7 +2,6 @@ import requests
 import psycopg2
 import random
 
-# Database connection parameters
 DB_NAME = "public"
 DB_USER = "postgres"
 DB_PASSWORD = "rajae19"
@@ -27,7 +26,6 @@ def create_table():
     cur.close()
     conn.close()
 
-# Function to fetch random countries from the API
 def fetch_random_countries():
     url = "https://restcountries.com/v3.1/all"
     response = requests.get(url)
