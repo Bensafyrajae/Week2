@@ -5,7 +5,7 @@ class MenuManager:
     def get_by_name(cls, name):
         """Récupère un item par son nom"""
         try:
-            conn = psycopg2.connect(dbname="restaurant", user="postgres", password="password", host="localhost", port="5432")
+            conn = psycopg2.connect(dbname="rest", user="postgres", password="password", host="localhost", port="5432")
             cur = conn.cursor()
             cur.execute("SELECT * FROM Menu_Items WHERE item_name = %s", (name,))
             item = cur.fetchone()
